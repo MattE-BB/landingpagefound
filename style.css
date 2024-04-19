@@ -1,29 +1,57 @@
 body {
-    height: 100lvh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
-.header {
-
-}
-.hero {
-
-}
-
 .content {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .quote {
     background-color: #e5e7eb;
+    color: 1F2937;
+    font-family: 'Roboto';
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
 }
 
 .cta {
 
 }
 
-.header, 
+.herosection, 
 .footer {
     background-color: #1f2937;
+    display: flex;
+    justify-content: space-around;
+}
+
+.herocontent {
+
+}
+
+.headerlinks {
+
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-size: 18px;
+    color: #E5E7EB;
+    
+
+}
+.quote {
+
+}
+
+.cta {
+
 }
