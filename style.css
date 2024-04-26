@@ -29,11 +29,18 @@ ul {
 
 
 .cta {
+    display: flex
+    background-color: #3882f6;
 }
 
 .herosection, 
 .footer {
     background-color: #1f2937;
+}
+
+.footer {
+    color: #F9FAF8;
+    display: flex;
 }
 
 .header {
@@ -64,22 +71,37 @@ a {
 
 }
 
-.heythere {
-    display: flex;
-}
-
 .cta {
 
 }
 
 .herocontent {
     display: flex;
+    padding: 100px;
+    gap: 40px;
+    justify-content: center;
+
+}
+
+.herocontentleft {
+    display: flex;
     flex-direction: column;
 }
+
+.heroimage {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgreen;
+    color: #E5E7EB;
+    justify-content: center;
+    text-align: center;
+}
+
 
 .herotext {
     font-size: 18px;
     color: #E5E7EB;
+    width: 400px
 }
 
 .heroheader {
@@ -87,9 +109,14 @@ a {
     color: #F9FAF8;
     font-family: 'Roboto';
     font-weight: bold;
+    width: 400px;
+    margin: 0;
 }
 
 .herobutton {
     background-color: #3882f6;
     color: #F9FAF8;
+    padding: 10px;
+    width: fit-content;
 }
+
