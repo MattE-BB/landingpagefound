@@ -7,17 +7,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
     <!--Beginning of Hero Section-->
-    <div class="nav-wrapper">
-        <div class="nav">
-            <div class="nav__logo">
-                Nav Logo
+    <div class="container container--header">
+        <div class="header">
+            <div class="header__logo">
+                Header Logo
             </div>
-            <div class="nav__links">
+            <div class="header__links">
                 <ul>
                     <li><a href="#">Header link one</a></li>
                     <li><a href="#">Header link two</a></li>
@@ -26,24 +26,24 @@
             </div>
         </div>
     </div>
-    <div class="overview-wrapper">
-        <div class="overview-container1">
-            <h2 class="overview-container1__title">This website is awesome</h2>
-            <p class="overview-container1__text">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
-            <button class="overview__button">Sign up</button>
+    <div class="container container--hero">
+        <div class="hero-intro">
+            <h2 class="hero-intro__title">This website is awesome</h2>
+            <p class="hero-intro__text">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
+            <button class="hero-intro__button">Sign up</button>
         </div>
-        <div class="overview-container2">
-            <h2 class="overview-container2__image">This is a placeholder for an image</h2>    
+        <div class="hero-image">
+            <h2 class="hero-image__placeholder">This is a placeholder for an image</h2>    
         </div>
     </div>
     <!--End of Hero Section-->
 
     <!--Beginning of Information Section-->
-    <div class="information-wrapper">
+    <div class="container container--information">
         <div class="information__title">
             <h2> Some random information</h2>
         </div>
-        <div class="information__buttons">
+        <div class="information__card">
             <button> this is a button </button>
             <button> this is another button </button>
             <button> this is a button </button>
@@ -53,21 +53,27 @@
     <!--End of Information Section-->
 
     <!--Beginning of Quote Section-->
-    <div class="quote-wrapper">
-        <div class="quote__text">
-            <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice</p>
-        </div>
-        <div class="quote__author">
-                <p>-Thor, God of Thunder</p>
+    <div class="container container--quote"></div>
+        <div class="quote-text">
+            <div class="quote-text__para">
+                <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice</p>
+            </div>
+            <div class="quote__author">
+                    <p>-Thor, God of Thunder</p>
+            </div>
         </div>
     </div>
     <!--End of Quote Section-->
 
     <!--Beginning of Call to Action Section-->
-    <div class="cta-wrapper">
-        <h2>Call to action! It's time!</h2>
-        <p>Sign up for our product by clicking that button right over there!</p>
-        <button>Sign up</button>
+    <div class="container container--cta">
+        <div class="cta-text">
+            <h2 class="cta-text__title">Call to action! It's time!</h2>
+            <p class="cta-text__para">Sign up for our product by clicking that button right over there!</p>
+        </div>
+        <div class="cta-button__signup">
+            <button>Sign up</button>
+        </div>
     </div>
     <!--End of Call to Action Section-->
 
